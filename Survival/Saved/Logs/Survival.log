@@ -1,0 +1,916 @@
+﻿Log file open, 01/25/20 05:35:14
+LogInit:Display: Running engine for game: Survival
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-293572076) SRandInit(-293572075).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.924174
+LogPluginManager: Loaded Plugin Paper2D, From C:/Users/Tony/Desktop/Game/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Users/Tony/Desktop/Game/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogModuleManager:Warning: ModuleManager: Module 'XMPP' not found - its StaticallyLinkedModuleInitializers function is null.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:46:09
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Users/Tony/Desktop/Game/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 2097152 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.01.25-13.35.14:679][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2020.01.25-13.35.14:679][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2020.01.25-13.35.14:709][  0]LogInit: Computer: DESKTOP-9JSOR2M
+[2020.01.25-13.35.14:709][  0]LogInit: User: Tony
+[2020.01.25-13.35.14:709][  0]LogInit: CPU Page size=65536, Cores=4
+[2020.01.25-13.35.14:709][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.01.25-13.35.14:710][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.01.25-13.35.14:710][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.01.25-13.35.14:710][  0]LogMemory: Process Physical Memory: 88.35 MB used, 88.35 MB peak
+[2020.01.25-13.35.14:710][  0]LogMemory: Process Virtual Memory: 101.03 MB used, 101.03 MB peak
+[2020.01.25-13.35.14:710][  0]LogMemory: Physical Memory: 6532.98 MB used,  1542.61 MB free, 8075.60 MB total
+[2020.01.25-13.35.14:710][  0]LogMemory: Virtual Memory: 4452.82 MB used,  1542.61 MB free, 134217728.00 MB total
+[2020.01.25-13.35.15:086][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2020.01.25-13.35.15:242][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.25-13.35.15:439][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2020.01.25-13.35.15:439][  0]LogD3D11RHI:       6052/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.01.25-13.35.15:510][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.01.25-13.35.15:510][  0]LogD3D11RHI:       128/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.01.25-13.35.15:518][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.25-13.35.15:518][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.25-13.35.15:518][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.25-13.35.15:530][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.25-13.35.15:531][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2020.01.25-13.35.15:531][  0]LogWindows: EnumDisplayDevices:
+[2020.01.25-13.35.15:531][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2020.01.25-13.35.15:531][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.01.25-13.35.15:531][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.01.25-13.35.15:532][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2020.01.25-13.35.15:532][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.01.25-13.35.15:532][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.01.25-13.35.15:532][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2020.01.25-13.35.15:532][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.01.25-13.35.15:532][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2020.01.25-13.35.15:532][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.01.25-13.35.15:532][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.01.25-13.35.15:532][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2020.01.25-13.35.15:609][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.25-13.35.15:627][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.01.25-13.35.15:803][  0]LogAssetRegistry: FAssetRegistry took 0.0162 seconds to start up
+[2020.01.25-13.35.15:808][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.004611 seconds
+[2020.01.25-13.35.15:827][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2020.01.25-13.35.15:827][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2020.01.25-13.35.15:959][  0]LogBlueprintUserMessages:Warning: DEBUG: LocalNotification DefaultPlatformService NOT FOUND
+[2020.01.25-13.35.16:000][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: survival, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 336450374
+[2020.01.25-13.35.16:189][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.01.25-13.35.16:200][  0]LogSlate: Using Freetype 2.6.0
+[2020.01.25-13.35.16:225][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.25-13.35.16:225][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.25-13.35.16:743][  0]LogMoviePlayer: Initializing movie player
+[2020.01.25-13.35.16:807][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../Survival/Content/Movies/Default_Startup.mp4
+[2020.01.25-13.35.16:898][  0]LogUObjectArray: 29397 objects as part of root set at end of initial load.
+[2020.01.25-13.35.16:898][  0]LogUObjectAllocator: 5817728 out of 0 bytes used by permanent object pool.
+[2020.01.25-13.35.16:898][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.25-13.35.16:909][  0]LogEngine: Initializing Engine...
+[2020.01.25-13.35.16:910][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.25-13.35.17:107][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.25-13.35.17:153][  0]LogInit: FAudioDevice initialized.
+[2020.01.25-13.35.17:164][  0]LogInit: Texture streaming: Enabled
+[2020.01.25-13.35.17:182][  0]LogInit:Display: Game Engine Initialized.
+[2020.01.25-13.35.17:182][  0]LogInit:Display: Starting Game.
+[2020.01.25-13.35.17:182][  0]LogNet: Browse: /Game/MainLevel?Name=Player
+[2020.01.25-13.35.17:182][  0]LogLoad: LoadMap: /Game/MainLevel?Name=Player
+[2020.01.25-13.35.17:202][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.01.25-13.35.17:202][  0]LogMemory: Process Physical Memory: 193.90 MB used, 208.90 MB peak
+[2020.01.25-13.35.17:202][  0]LogMemory: Process Virtual Memory: 271.15 MB used, 286.35 MB peak
+[2020.01.25-13.35.17:202][  0]LogMemory: Physical Memory: 6625.70 MB used,  1449.90 MB free, 8075.60 MB total
+[2020.01.25-13.35.17:202][  0]LogMemory: Virtual Memory: 4850.59 MB used,  1449.90 MB free, 134217728.00 MB total
+[2020.01.25-13.35.17:202][  0]LogMemory: 
+[2020.01.25-13.35.17:202][  0]Allocator Stats for binned2: (not implemented)
+[2020.01.25-13.35.19:182][  0]LogAIModule: Creating AISystem for world MainLevel
+[2020.01.25-13.35.19:184][  0]LogLoad: Game class is 'KGGameMode_C'
+[2020.01.25-13.35.19:269][  0]LogWorld: Bringing World /Game/MainLevel.MainLevel up for play (max tick rate 0) at 2020.01.25-05.35.19
+[2020.01.25-13.35.19:271][  0]LogWorld: Bringing up level for play took: 0.081338
+[2020.01.25-13.35.19:338][  0]LogLoad: Took 2.155940 seconds to LoadMap(/Game/MainLevel)
+[2020.01.25-13.35.19:541][  0]LogLoad: (Engine Initialization) Total time: 6.30 seconds
+[2020.01.25-13.35.19:541][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.01.25-13.35.19:559][  0]LogOcInput: OculusInput pre-init called
+[2020.01.25-13.35.19:645][  0]LogRenderer: Reallocating scene render targets to support 128x128 NumSamples 1 (Frame:1).
+[2020.01.25-13.35.19:769][  1]LogRenderer: Reallocating scene render targets to support 1600x900 NumSamples 1 (Frame:2).
+[2020.01.25-13.35.59:300][282]LogSlate: HittestGrid destroyed
+[2020.01.25-13.35.59:303][282]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.03:579][547]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.03:579][547]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.05:082][640]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.05:082][640]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.05:566][670]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Game/MainLevel.MainLevel:PersistentLevel.KGCharacterMage_C_0.CharacterMesh0: Material index 0 is invalid.
+[2020.01.25-13.36.05:567][670]LogScript:Warning: Accessed None trying to read property CallFunc_CreateDynamicMaterialInstance_ReturnValue
+	KGCharacterMage_C /Game/MainLevel.MainLevel:PersistentLevel.KGCharacterMage_C_0
+	Function /Game/Blueprints/KGCharBase.KGCharBase_C:UserConstructionScript:003E
+[2020.01.25-13.36.05:567][670]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/KGCharacterMage.KGCharacterMage_C:UserConstructionScript
+	Function /Game/Blueprints/KGCharBase.KGCharBase_C:UserConstructionScript
+
+[2020.01.25-13.36.05:568][670]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.05:568][670]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.05:568][670]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:583][733]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:599][734]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:615][735]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:631][736]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:647][737]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:664][738]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:680][739]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:696][740]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:712][741]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:728][742]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:745][743]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:761][744]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:777][745]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:793][746]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:809][747]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:826][748]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:842][749]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:858][750]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:874][751]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:891][752]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:907][753]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:922][754]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:938][755]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:954][756]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:971][757]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.06:987][758]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:003][759]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:019][760]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:035][761]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:051][762]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:068][763]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:084][764]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:100][765]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:116][766]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:132][767]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:148][768]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:164][769]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:181][770]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:197][771]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:213][772]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:229][773]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:245][774]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:261][775]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:278][776]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:294][777]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:309][778]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:325][779]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:341][780]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:357][781]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:374][782]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:390][783]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:407][784]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:424][785]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:439][786]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:455][787]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:471][788]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:487][789]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:503][790]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:519][791]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:535][792]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:552][793]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:568][794]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:570][794]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1790.000 Y=348.999 Z=199.116] for [KGCharBase_C]
+[2020.01.25-13.36.07:571][794]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnAIFromClass_ReturnValue
+	KGGameMode_C /Game/MainLevel.MainLevel:PersistentLevel.KGGameMode_C_0
+	Function /Game/Blueprints/KGGameMode.KGGameMode_C:ExecuteUbergraph_KGGameMode:04E0
+[2020.01.25-13.36.07:571][794]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/KGGameMode.KGGameMode_C:SpawnEnemy
+	Function /Game/Blueprints/KGGameMode.KGGameMode_C:ExecuteUbergraph_KGGameMode
+
+[2020.01.25-13.36.07:585][795]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:600][796]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:616][797]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:632][798]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:649][799]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:665][800]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:681][801]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:698][802]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:713][803]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:729][804]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:745][805]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:761][806]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:777][807]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:794][808]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:810][809]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:826][810]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:843][811]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:859][812]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:875][813]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:892][814]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:907][815]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:923][816]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:940][817]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:955][818]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:972][819]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.07:987][820]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:004][821]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:020][822]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:037][823]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:053][824]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:069][825]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:085][826]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:101][827]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:117][828]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:134][829]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:150][830]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:166][831]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:182][832]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:199][833]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:215][834]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:231][835]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:248][836]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:263][837]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:279][838]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:296][839]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:311][840]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:327][841]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:344][842]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:360][843]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:376][844]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:392][845]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:408][846]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:424][847]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:441][848]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:457][849]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:473][850]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:489][851]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:505][852]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:521][853]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:538][854]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:554][855]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:570][856]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:586][857]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:603][858]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:619][859]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:635][860]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:652][861]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:668][862]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:683][863]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:699][864]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:716][865]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:732][866]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:748][867]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:765][868]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:781][869]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:797][870]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:814][871]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:830][872]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:846][873]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:862][874]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:877][875]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:893][876]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:909][877]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:926][878]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:942][879]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:958][880]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:974][881]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.08:990][882]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:006][883]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:022][884]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:022][884]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:038][885]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:039][885]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:055][886]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:055][886]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:071][887]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:071][887]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:087][888]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:087][888]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:104][889]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:104][889]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:120][890]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:137][891]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:153][892]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:169][893]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:185][894]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:201][895]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:217][896]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:233][897]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:249][898]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:265][899]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:281][900]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:297][901]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:314][902]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:330][903]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:346][904]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:362][905]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:378][906]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:395][907]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:411][908]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:427][909]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:443][910]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:459][911]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:475][912]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:492][913]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:508][914]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:524][915]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:540][916]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:556][917]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:572][918]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:588][919]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:588][919]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:604][920]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:605][920]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:620][921]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:621][921]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:636][922]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:636][922]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:652][923]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:652][923]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:668][924]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:684][925]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:700][926]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:717][927]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:733][928]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:750][929]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:766][930]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:782][931]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:798][932]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:815][933]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:830][934]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:846][935]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:862][936]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:878][937]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:894][938]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:910][939]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:927][940]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:944][941]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:960][942]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:977][943]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.09:993][944]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:008][945]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:009][945]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:025][946]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:041][947]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:057][948]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:073][949]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:089][950]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:105][951]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:122][952]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:137][953]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:154][954]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:170][955]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:186][956]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:202][957]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:218][958]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:235][959]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:250][960]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:266][961]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:266][961]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:283][962]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:299][963]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:316][964]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:332][965]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:348][966]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:364][967]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:380][968]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:398][969]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:413][970]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:429][971]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:444][972]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:460][973]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:460][973]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:476][974]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:493][975]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:509][976]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:526][977]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:542][978]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:558][979]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:574][980]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:590][981]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:590][981]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:606][982]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:623][983]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:639][984]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:655][985]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:671][986]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:687][987]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:704][988]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:720][989]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:736][990]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:752][991]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:768][992]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:785][993]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:800][994]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:815][995]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:832][996]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:848][997]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:866][998]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:880][999]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:897][  0]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:913][  1]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:928][  2]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:945][  3]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:961][  4]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.10:977][  5]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.25:965][796]LogNet: Browse: /Game/MainLevel?Name=Player?restart
+[2020.01.25-13.36.25:965][796]LogLoad: LoadMap: /Game/MainLevel?Name=Player
+[2020.01.25-13.36.25:968][796]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.25:968][796]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.25:969][796]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.25:969][796]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.25:969][796]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.25:969][796]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.25:969][796]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.25:969][796]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.26:045][796]LogSkinnedMeshComp:Warning: GetSocketByName(None: Sword): No SkeletalMesh for CharacterMesh0
+[2020.01.25-13.36.26:074][796]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.01.25-13.36.26:074][796]LogMemory: Process Physical Memory: 291.46 MB used, 361.35 MB peak
+[2020.01.25-13.36.26:074][796]LogMemory: Process Virtual Memory: 738.31 MB used, 779.39 MB peak
+[2020.01.25-13.36.26:074][796]LogMemory: Physical Memory: 6175.83 MB used,  1899.77 MB free, 8075.60 MB total
+[2020.01.25-13.36.26:074][796]LogMemory: Virtual Memory: 5325.45 MB used,  1899.77 MB free, 134217728.00 MB total
+[2020.01.25-13.36.26:074][796]LogMemory: 
+[2020.01.25-13.36.26:074][796]Allocator Stats for binned2: (not implemented)
+[2020.01.25-13.36.26:894][796]LogAIModule: Creating AISystem for world MainLevel
+[2020.01.25-13.36.26:895][796]LogLoad: Game class is 'KGGameMode_C'
+[2020.01.25-13.36.26:918][796]LogWorld: Bringing World /Game/MainLevel.MainLevel up for play (max tick rate 0) at 2020.01.25-05.36.26
+[2020.01.25-13.36.26:919][796]LogWorld: Bringing up level for play took: 0.018698
+[2020.01.25-13.36.26:930][796]LogLoad: Took 0.965240 seconds to LoadMap(/Game/MainLevel)
+[2020.01.25-13.36.48:961][966]LogNet: Browse: /Game/MainLevel?Name=Player?restart
+[2020.01.25-13.36.48:961][966]LogLoad: LoadMap: /Game/MainLevel?Name=Player
+[2020.01.25-13.36.48:961][966]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.48:961][966]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.48:962][966]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.48:962][966]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.48:962][966]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.48:962][966]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.48:962][966]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.48:962][966]LogSlate: HittestGrid destroyed
+[2020.01.25-13.36.49:058][966]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.01.25-13.36.49:058][966]LogMemory: Process Physical Memory: 309.08 MB used, 392.61 MB peak
+[2020.01.25-13.36.49:058][966]LogMemory: Process Virtual Memory: 790.55 MB used, 928.08 MB peak
+[2020.01.25-13.36.49:058][966]LogMemory: Physical Memory: 6189.72 MB used,  1885.88 MB free, 8075.60 MB total
+[2020.01.25-13.36.49:058][966]LogMemory: Virtual Memory: 5387.70 MB used,  1885.88 MB free, 134217728.00 MB total
+[2020.01.25-13.36.49:058][966]LogMemory: 
+[2020.01.25-13.36.49:058][966]Allocator Stats for binned2: (not implemented)
+[2020.01.25-13.36.49:959][966]LogAIModule: Creating AISystem for world MainLevel
+[2020.01.25-13.36.49:959][966]LogLoad: Game class is 'KGGameMode_C'
+[2020.01.25-13.36.49:980][966]LogWorld: Bringing World /Game/MainLevel.MainLevel up for play (max tick rate 0) at 2020.01.25-05.36.49
+[2020.01.25-13.36.49:981][966]LogWorld: Bringing up level for play took: 0.019470
+[2020.01.25-13.36.49:991][966]LogLoad: Took 1.030054 seconds to LoadMap(/Game/MainLevel)
+[2020.01.25-13.37.08:044][728]LogNet: Browse: /Game/MainLevel?Name=Player?restart
+[2020.01.25-13.37.08:044][728]LogLoad: LoadMap: /Game/MainLevel?Name=Player
+[2020.01.25-13.37.08:044][728]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.08:044][728]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.08:045][728]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.08:045][728]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.08:045][728]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.08:045][728]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.08:045][728]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.08:045][728]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.08:150][728]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.01.25-13.37.08:150][728]LogMemory: Process Physical Memory: 314.60 MB used, 400.16 MB peak
+[2020.01.25-13.37.08:150][728]LogMemory: Process Virtual Memory: 790.30 MB used, 947.76 MB peak
+[2020.01.25-13.37.08:150][728]LogMemory: Physical Memory: 6191.84 MB used,  1883.76 MB free, 8075.60 MB total
+[2020.01.25-13.37.08:150][728]LogMemory: Virtual Memory: 5446.14 MB used,  1883.76 MB free, 134217728.00 MB total
+[2020.01.25-13.37.08:150][728]LogMemory: 
+[2020.01.25-13.37.08:150][728]Allocator Stats for binned2: (not implemented)
+[2020.01.25-13.37.09:022][728]LogAIModule: Creating AISystem for world MainLevel
+[2020.01.25-13.37.09:022][728]LogLoad: Game class is 'KGGameMode_C'
+[2020.01.25-13.37.09:046][728]LogWorld: Bringing World /Game/MainLevel.MainLevel up for play (max tick rate 0) at 2020.01.25-05.37.09
+[2020.01.25-13.37.09:047][728]LogWorld: Bringing up level for play took: 0.020115
+[2020.01.25-13.37.09:058][728]LogLoad: Took 1.014396 seconds to LoadMap(/Game/MainLevel)
+[2020.01.25-13.37.27:099][458]LogNet: Browse: /Game/MainLevel?Name=Player?restart
+[2020.01.25-13.37.27:099][458]LogLoad: LoadMap: /Game/MainLevel?Name=Player
+[2020.01.25-13.37.27:099][458]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.27:099][458]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.27:100][458]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.27:100][458]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.27:100][458]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.27:100][458]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.27:101][458]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.27:101][458]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.27:205][458]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.01.25-13.37.27:205][458]LogMemory: Process Physical Memory: 318.57 MB used, 405.86 MB peak
+[2020.01.25-13.37.27:205][458]LogMemory: Process Virtual Memory: 792.40 MB used, 951.52 MB peak
+[2020.01.25-13.37.27:205][458]LogMemory: Physical Memory: 6156.79 MB used,  1918.80 MB free, 8075.60 MB total
+[2020.01.25-13.37.27:205][458]LogMemory: Virtual Memory: 5414.32 MB used,  1918.80 MB free, 134217728.00 MB total
+[2020.01.25-13.37.27:205][458]LogMemory: 
+[2020.01.25-13.37.27:205][458]Allocator Stats for binned2: (not implemented)
+[2020.01.25-13.37.28:072][458]LogAIModule: Creating AISystem for world MainLevel
+[2020.01.25-13.37.28:072][458]LogLoad: Game class is 'KGGameMode_C'
+[2020.01.25-13.37.28:094][458]LogWorld: Bringing World /Game/MainLevel.MainLevel up for play (max tick rate 0) at 2020.01.25-05.37.28
+[2020.01.25-13.37.28:095][458]LogWorld: Bringing up level for play took: 0.020276
+[2020.01.25-13.37.28:105][458]LogLoad: Took 1.005778 seconds to LoadMap(/Game/MainLevel)
+[2020.01.25-13.37.41:884][965]LogNet: Browse: /Game/MainLevel?Name=Player?restart
+[2020.01.25-13.37.41:885][965]LogLoad: LoadMap: /Game/MainLevel?Name=Player
+[2020.01.25-13.37.41:885][965]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.41:885][965]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.41:886][965]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.41:886][965]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.41:886][965]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.41:886][965]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.41:886][965]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.41:886][965]LogSlate: HittestGrid destroyed
+[2020.01.25-13.37.41:975][965]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.01.25-13.37.41:975][965]LogMemory: Process Physical Memory: 322.19 MB used, 411.77 MB peak
+[2020.01.25-13.37.41:975][965]LogMemory: Process Virtual Memory: 806.58 MB used, 951.52 MB peak
+[2020.01.25-13.37.41:975][965]LogMemory: Physical Memory: 6172.11 MB used,  1903.48 MB free, 8075.60 MB total
+[2020.01.25-13.37.41:975][965]LogMemory: Virtual Memory: 5412.82 MB used,  1903.48 MB free, 134217728.00 MB total
+[2020.01.25-13.37.41:975][965]LogMemory: 
+[2020.01.25-13.37.41:975][965]Allocator Stats for binned2: (not implemented)
+[2020.01.25-13.37.42:770][965]LogAIModule: Creating AISystem for world MainLevel
+[2020.01.25-13.37.42:771][965]LogLoad: Game class is 'KGGameMode_C'
+[2020.01.25-13.37.42:790][965]LogWorld: Bringing World /Game/MainLevel.MainLevel up for play (max tick rate 0) at 2020.01.25-05.37.42
+[2020.01.25-13.37.42:790][965]LogWorld: Bringing up level for play took: 0.017341
+[2020.01.25-13.37.42:800][965]LogLoad: Took 0.915851 seconds to LoadMap(/Game/MainLevel)
+[2020.01.25-13.38.03:865][800]LogNet: Browse: /Game/MainLevel?Name=Player?restart
+[2020.01.25-13.38.03:865][800]LogLoad: LoadMap: /Game/MainLevel?Name=Player
+[2020.01.25-13.38.03:865][800]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.03:865][800]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.03:867][800]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.03:867][800]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.03:867][800]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.03:867][800]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.03:867][800]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.03:867][800]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.03:964][800]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.01.25-13.38.03:964][800]LogMemory: Process Physical Memory: 328.76 MB used, 415.08 MB peak
+[2020.01.25-13.38.03:964][800]LogMemory: Process Virtual Memory: 806.37 MB used, 964.05 MB peak
+[2020.01.25-13.38.03:964][800]LogMemory: Physical Memory: 6200.67 MB used,  1874.93 MB free, 8075.60 MB total
+[2020.01.25-13.38.03:964][800]LogMemory: Virtual Memory: 5479.20 MB used,  1874.93 MB free, 134217728.00 MB total
+[2020.01.25-13.38.03:964][800]LogMemory: 
+[2020.01.25-13.38.03:964][800]Allocator Stats for binned2: (not implemented)
+[2020.01.25-13.38.04:919][800]LogAIModule: Creating AISystem for world MainLevel
+[2020.01.25-13.38.04:919][800]LogLoad: Game class is 'KGGameMode_C'
+[2020.01.25-13.38.04:939][800]LogWorld: Bringing World /Game/MainLevel.MainLevel up for play (max tick rate 0) at 2020.01.25-05.38.04
+[2020.01.25-13.38.04:939][800]LogWorld: Bringing up level for play took: 0.016921
+[2020.01.25-13.38.04:947][800]LogLoad: Took 1.082473 seconds to LoadMap(/Game/MainLevel)
+[2020.01.25-13.38.23:978][717]LogNet: Browse: /Game/MainLevel?Name=Player?restart
+[2020.01.25-13.38.23:978][717]LogLoad: LoadMap: /Game/MainLevel?Name=Player
+[2020.01.25-13.38.23:979][717]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.23:979][717]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.23:980][717]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.23:980][717]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.23:980][717]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.23:980][717]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.23:980][717]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.23:980][717]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.24:084][717]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.01.25-13.38.24:084][717]LogMemory: Process Physical Memory: 332.63 MB used, 416.79 MB peak
+[2020.01.25-13.38.24:084][717]LogMemory: Process Virtual Memory: 809.97 MB used, 964.05 MB peak
+[2020.01.25-13.38.24:084][717]LogMemory: Physical Memory: 6235.19 MB used,  1840.41 MB free, 8075.60 MB total
+[2020.01.25-13.38.24:084][717]LogMemory: Virtual Memory: 5441.14 MB used,  1840.41 MB free, 134217728.00 MB total
+[2020.01.25-13.38.24:084][717]LogMemory: 
+[2020.01.25-13.38.24:084][717]Allocator Stats for binned2: (not implemented)
+[2020.01.25-13.38.24:947][717]LogAIModule: Creating AISystem for world MainLevel
+[2020.01.25-13.38.24:947][717]LogLoad: Game class is 'KGGameMode_C'
+[2020.01.25-13.38.24:972][717]LogWorld: Bringing World /Game/MainLevel.MainLevel up for play (max tick rate 0) at 2020.01.25-05.38.24
+[2020.01.25-13.38.24:973][717]LogWorld: Bringing up level for play took: 0.022226
+[2020.01.25-13.38.24:984][717]LogLoad: Took 1.005948 seconds to LoadMap(/Game/MainLevel)
+[2020.01.25-13.38.43:059][409]LogNet: Browse: /Game/MainLevel?Name=Player?restart
+[2020.01.25-13.38.43:059][409]LogLoad: LoadMap: /Game/MainLevel?Name=Player
+[2020.01.25-13.38.43:060][409]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.43:060][409]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.43:061][409]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.43:061][409]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.43:061][409]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.43:061][409]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.43:061][409]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.43:061][409]LogSlate: HittestGrid destroyed
+[2020.01.25-13.38.43:137][409]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.01.25-13.38.43:137][409]LogMemory: Process Physical Memory: 334.50 MB used, 421.39 MB peak
+[2020.01.25-13.38.43:137][409]LogMemory: Process Virtual Memory: 814.55 MB used, 976.03 MB peak
+[2020.01.25-13.38.43:137][409]LogMemory: Physical Memory: 6260.93 MB used,  1814.67 MB free, 8075.60 MB total
+[2020.01.25-13.38.43:137][409]LogMemory: Virtual Memory: 5503.07 MB used,  1814.67 MB free, 134217728.00 MB total
+[2020.01.25-13.38.43:137][409]LogMemory: 
+[2020.01.25-13.38.43:137][409]Allocator Stats for binned2: (not implemented)
+[2020.01.25-13.38.44:019][409]LogAIModule: Creating AISystem for world MainLevel
+[2020.01.25-13.38.44:019][409]LogLoad: Game class is 'KGGameMode_C'
+[2020.01.25-13.38.44:049][409]LogWorld: Bringing World /Game/MainLevel.MainLevel up for play (max tick rate 0) at 2020.01.25-05.38.44
+[2020.01.25-13.38.44:050][409]LogWorld: Bringing up level for play took: 0.026960
+[2020.01.25-13.38.44:060][409]LogLoad: Took 1.000339 seconds to LoadMap(/Game/MainLevel)
+[2020.01.25-13.39.04:133][179]LogNet: Browse: /Game/MainLevel?Name=Player?restart
+[2020.01.25-13.39.04:133][179]LogLoad: LoadMap: /Game/MainLevel?Name=Player
+[2020.01.25-13.39.04:134][179]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.04:134][179]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.04:135][179]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.04:135][179]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.04:135][179]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.04:135][179]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.04:135][179]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.04:135][179]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.04:236][179]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.01.25-13.39.04:236][179]LogMemory: Process Physical Memory: 336.17 MB used, 424.70 MB peak
+[2020.01.25-13.39.04:236][179]LogMemory: Process Virtual Memory: 818.06 MB used, 976.03 MB peak
+[2020.01.25-13.39.04:236][179]LogMemory: Physical Memory: 6262.93 MB used,  1812.67 MB free, 8075.60 MB total
+[2020.01.25-13.39.04:236][179]LogMemory: Virtual Memory: 5469.51 MB used,  1812.67 MB free, 134217728.00 MB total
+[2020.01.25-13.39.04:236][179]LogMemory: 
+[2020.01.25-13.39.04:236][179]Allocator Stats for binned2: (not implemented)
+[2020.01.25-13.39.05:063][179]LogAIModule: Creating AISystem for world MainLevel
+[2020.01.25-13.39.05:064][179]LogLoad: Game class is 'KGGameMode_C'
+[2020.01.25-13.39.05:088][179]LogWorld: Bringing World /Game/MainLevel.MainLevel up for play (max tick rate 0) at 2020.01.25-05.39.05
+[2020.01.25-13.39.05:088][179]LogWorld: Bringing up level for play took: 0.021524
+[2020.01.25-13.39.05:099][179]LogLoad: Took 0.966231 seconds to LoadMap(/Game/MainLevel)
+[2020.01.25-13.39.19:158][730]LogNet: Browse: /Game/MainLevel?Name=Player?restart
+[2020.01.25-13.39.19:158][730]LogLoad: LoadMap: /Game/MainLevel?Name=Player
+[2020.01.25-13.39.19:158][730]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.19:158][730]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.19:159][730]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.19:159][730]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.19:159][730]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.19:159][730]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.19:159][730]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.19:159][730]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.19:249][730]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.01.25-13.39.19:249][730]LogMemory: Process Physical Memory: 337.69 MB used, 424.70 MB peak
+[2020.01.25-13.39.19:249][730]LogMemory: Process Virtual Memory: 825.77 MB used, 976.03 MB peak
+[2020.01.25-13.39.19:249][730]LogMemory: Physical Memory: 6258.77 MB used,  1816.82 MB free, 8075.60 MB total
+[2020.01.25-13.39.19:249][730]LogMemory: Virtual Memory: 5503.14 MB used,  1816.82 MB free, 134217728.00 MB total
+[2020.01.25-13.39.19:249][730]LogMemory: 
+[2020.01.25-13.39.19:249][730]Allocator Stats for binned2: (not implemented)
+[2020.01.25-13.39.20:170][730]LogAIModule: Creating AISystem for world MainLevel
+[2020.01.25-13.39.20:170][730]LogLoad: Game class is 'KGGameMode_C'
+[2020.01.25-13.39.20:195][730]LogWorld: Bringing World /Game/MainLevel.MainLevel up for play (max tick rate 0) at 2020.01.25-05.39.20
+[2020.01.25-13.39.20:196][730]LogWorld: Bringing up level for play took: 0.022877
+[2020.01.25-13.39.20:205][730]LogLoad: Took 1.047331 seconds to LoadMap(/Game/MainLevel)
+[2020.01.25-13.39.38:217][615]LogNet: Browse: /Game/MainLevel?Name=Player?restart
+[2020.01.25-13.39.38:217][615]LogLoad: LoadMap: /Game/MainLevel?Name=Player
+[2020.01.25-13.39.38:218][615]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.38:218][615]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.38:218][615]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.38:218][615]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.38:219][615]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.38:219][615]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.38:219][615]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.38:219][615]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.38:317][615]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.01.25-13.39.38:317][615]LogMemory: Process Physical Memory: 341.43 MB used, 424.70 MB peak
+[2020.01.25-13.39.38:317][615]LogMemory: Process Virtual Memory: 822.86 MB used, 978.62 MB peak
+[2020.01.25-13.39.38:317][615]LogMemory: Physical Memory: 6274.13 MB used,  1801.46 MB free, 8075.60 MB total
+[2020.01.25-13.39.38:317][615]LogMemory: Virtual Memory: 5473.45 MB used,  1801.46 MB free, 134217728.00 MB total
+[2020.01.25-13.39.38:317][615]LogMemory: 
+[2020.01.25-13.39.38:317][615]Allocator Stats for binned2: (not implemented)
+[2020.01.25-13.39.39:237][615]LogAIModule: Creating AISystem for world MainLevel
+[2020.01.25-13.39.39:237][615]LogLoad: Game class is 'KGGameMode_C'
+[2020.01.25-13.39.39:260][615]LogWorld: Bringing World /Game/MainLevel.MainLevel up for play (max tick rate 0) at 2020.01.25-05.39.39
+[2020.01.25-13.39.39:261][615]LogWorld: Bringing up level for play took: 0.021108
+[2020.01.25-13.39.39:271][615]LogLoad: Took 1.053195 seconds to LoadMap(/Game/MainLevel)
+[2020.01.25-13.39.56:300][290]LogNet: Browse: /Game/MainLevel?Name=Player?restart
+[2020.01.25-13.39.56:300][290]LogLoad: LoadMap: /Game/MainLevel?Name=Player
+[2020.01.25-13.39.56:301][290]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.56:301][290]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.56:302][290]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.56:302][290]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.56:302][290]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.56:302][290]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.56:302][290]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.56:302][290]LogSlate: HittestGrid destroyed
+[2020.01.25-13.39.56:416][290]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.01.25-13.39.56:416][290]LogMemory: Process Physical Memory: 345.54 MB used, 429.08 MB peak
+[2020.01.25-13.39.56:416][290]LogMemory: Process Virtual Memory: 837.27 MB used, 985.78 MB peak
+[2020.01.25-13.39.56:416][290]LogMemory: Physical Memory: 6289.83 MB used,  1785.77 MB free, 8075.60 MB total
+[2020.01.25-13.39.56:416][290]LogMemory: Virtual Memory: 5515.89 MB used,  1785.77 MB free, 134217728.00 MB total
+[2020.01.25-13.39.56:416][290]LogMemory: 
+[2020.01.25-13.39.56:416][290]Allocator Stats for binned2: (not implemented)
+[2020.01.25-13.39.57:413][290]LogAIModule: Creating AISystem for world MainLevel
+[2020.01.25-13.39.57:413][290]LogLoad: Game class is 'KGGameMode_C'
+[2020.01.25-13.39.57:445][290]LogWorld: Bringing World /Game/MainLevel.MainLevel up for play (max tick rate 0) at 2020.01.25-05.39.57
+[2020.01.25-13.39.57:445][290]LogWorld: Bringing up level for play took: 0.028884
+[2020.01.25-13.39.57:458][290]LogLoad: Took 1.157569 seconds to LoadMap(/Game/MainLevel)
+[2020.01.25-13.40.00:086][413]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1790.000 Y=348.999 Z=199.116] for [KGCharBase_C]
+[2020.01.25-13.40.00:087][413]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnAIFromClass_ReturnValue
+	KGGameMode_C /Game/MainLevel.MainLevel:PersistentLevel.KGGameMode_C_0
+	Function /Game/Blueprints/KGGameMode.KGGameMode_C:ExecuteUbergraph_KGGameMode:04E0
+[2020.01.25-13.40.00:087][413]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/KGGameMode.KGGameMode_C:SpawnEnemy
+	Function /Game/Blueprints/KGGameMode.KGGameMode_C:ExecuteUbergraph_KGGameMode
+
+[2020.01.25-13.40.15:493][136]LogNet: Browse: /Game/MainLevel?Name=Player?restart
+[2020.01.25-13.40.15:494][136]LogLoad: LoadMap: /Game/MainLevel?Name=Player
+[2020.01.25-13.40.15:494][136]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.15:494][136]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.15:495][136]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.15:495][136]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.15:496][136]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.15:496][136]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.15:596][136]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.01.25-13.40.15:596][136]LogMemory: Process Physical Memory: 347.52 MB used, 430.80 MB peak
+[2020.01.25-13.40.15:596][136]LogMemory: Process Virtual Memory: 831.03 MB used, 988.12 MB peak
+[2020.01.25-13.40.15:596][136]LogMemory: Physical Memory: 6279.08 MB used,  1796.52 MB free, 8075.60 MB total
+[2020.01.25-13.40.15:596][136]LogMemory: Virtual Memory: 5493.45 MB used,  1796.52 MB free, 134217728.00 MB total
+[2020.01.25-13.40.15:596][136]LogMemory: 
+[2020.01.25-13.40.15:596][136]Allocator Stats for binned2: (not implemented)
+[2020.01.25-13.40.16:495][136]LogAIModule: Creating AISystem for world MainLevel
+[2020.01.25-13.40.16:495][136]LogLoad: Game class is 'KGGameMode_C'
+[2020.01.25-13.40.16:521][136]LogWorld: Bringing World /Game/MainLevel.MainLevel up for play (max tick rate 0) at 2020.01.25-05.40.16
+[2020.01.25-13.40.16:522][136]LogWorld: Bringing up level for play took: 0.023005
+[2020.01.25-13.40.16:534][136]LogLoad: Took 1.040784 seconds to LoadMap(/Game/MainLevel)
+[2020.01.25-13.40.32:570][763]LogNet: Browse: /Game/MainLevel?Name=Player?restart
+[2020.01.25-13.40.32:570][763]LogLoad: LoadMap: /Game/MainLevel?Name=Player
+[2020.01.25-13.40.32:571][763]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.32:571][763]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.32:572][763]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.32:572][763]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.32:572][763]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.32:572][763]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.32:572][763]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.32:572][763]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.32:677][763]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.01.25-13.40.32:677][763]LogMemory: Process Physical Memory: 350.77 MB used, 433.27 MB peak
+[2020.01.25-13.40.32:677][763]LogMemory: Process Virtual Memory: 846.57 MB used, 991.09 MB peak
+[2020.01.25-13.40.32:677][763]LogMemory: Physical Memory: 6292.18 MB used,  1783.41 MB free, 8075.60 MB total
+[2020.01.25-13.40.32:677][763]LogMemory: Virtual Memory: 5504.01 MB used,  1783.41 MB free, 134217728.00 MB total
+[2020.01.25-13.40.32:677][763]LogMemory: 
+[2020.01.25-13.40.32:677][763]Allocator Stats for binned2: (not implemented)
+[2020.01.25-13.40.33:759][763]LogAIModule: Creating AISystem for world MainLevel
+[2020.01.25-13.40.33:760][763]LogLoad: Game class is 'KGGameMode_C'
+[2020.01.25-13.40.33:783][763]LogWorld: Bringing World /Game/MainLevel.MainLevel up for play (max tick rate 0) at 2020.01.25-05.40.33
+[2020.01.25-13.40.33:784][763]LogWorld: Bringing up level for play took: 0.020518
+[2020.01.25-13.40.33:795][763]LogLoad: Took 1.224549 seconds to LoadMap(/Game/MainLevel)
+[2020.01.25-13.40.47:810][435]LogNet: Browse: /Game/MainLevel?Name=Player?restart
+[2020.01.25-13.40.47:810][435]LogLoad: LoadMap: /Game/MainLevel?Name=Player
+[2020.01.25-13.40.47:810][435]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.47:810][435]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.47:811][435]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.47:811][435]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.47:811][435]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.47:811][435]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.47:811][435]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.47:811][435]LogSlate: HittestGrid destroyed
+[2020.01.25-13.40.47:896][435]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.01.25-13.40.47:896][435]LogMemory: Process Physical Memory: 354.67 MB used, 436.48 MB peak
+[2020.01.25-13.40.47:896][435]LogMemory: Process Virtual Memory: 851.80 MB used, 1001.79 MB peak
+[2020.01.25-13.40.47:896][435]LogMemory: Physical Memory: 6455.89 MB used,  1619.70 MB free, 8075.60 MB total
+[2020.01.25-13.40.47:896][435]LogMemory: Virtual Memory: 5505.76 MB used,  1619.70 MB free, 134217728.00 MB total
+[2020.01.25-13.40.47:896][435]LogMemory: 
+[2020.01.25-13.40.47:896][435]Allocator Stats for binned2: (not implemented)
+[2020.01.25-13.40.48:751][435]LogAIModule: Creating AISystem for world MainLevel
+[2020.01.25-13.40.48:752][435]LogLoad: Game class is 'KGGameMode_C'
+[2020.01.25-13.40.48:776][435]LogWorld: Bringing World /Game/MainLevel.MainLevel up for play (max tick rate 0) at 2020.01.25-05.40.48
+[2020.01.25-13.40.48:778][435]LogWorld: Bringing up level for play took: 0.021673
+[2020.01.25-13.40.48:792][435]LogLoad: Took 0.982559 seconds to LoadMap(/Game/MainLevel)
+[2020.01.25-13.40.49:423][462]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-1790.000 Y=348.999 Z=199.116] for [KGCharBase_C]
+[2020.01.25-13.40.49:423][462]LogScript:Warning: Accessed None trying to read property CallFunc_SpawnAIFromClass_ReturnValue
+	KGGameMode_C /Game/MainLevel.MainLevel:PersistentLevel.KGGameMode_C_0
+	Function /Game/Blueprints/KGGameMode.KGGameMode_C:ExecuteUbergraph_KGGameMode:04E0
+[2020.01.25-13.40.49:423][462]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/KGGameMode.KGGameMode_C:SpawnEnemy
+	Function /Game/Blueprints/KGGameMode.KGGameMode_C:ExecuteUbergraph_KGGameMode
+
+[2020.01.25-13.41.07:793][551]LogNet: Browse: /Game/MainLevel?Name=Player?restart
+[2020.01.25-13.41.07:793][551]LogLoad: LoadMap: /Game/MainLevel?Name=Player
+[2020.01.25-13.41.07:793][551]LogSlate: HittestGrid destroyed
+[2020.01.25-13.41.07:793][551]LogSlate: HittestGrid destroyed
+[2020.01.25-13.41.07:793][551]LogSlate: HittestGrid destroyed
+[2020.01.25-13.41.07:794][551]LogSlate: HittestGrid destroyed
+[2020.01.25-13.41.07:794][551]LogSlate: HittestGrid destroyed
+[2020.01.25-13.41.07:794][551]LogSlate: HittestGrid destroyed
+[2020.01.25-13.41.07:839][551]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2020.01.25-13.41.07:840][551]LogMemory: Process Physical Memory: 358.27 MB used, 440.34 MB peak
+[2020.01.25-13.41.07:840][551]LogMemory: Process Virtual Memory: 845.39 MB used, 1001.79 MB peak
+[2020.01.25-13.41.07:840][551]LogMemory: Physical Memory: 5615.97 MB used,  2459.63 MB free, 8075.60 MB total
+[2020.01.25-13.41.07:840][551]LogMemory: Virtual Memory: 5516.64 MB used,  2459.63 MB free, 134217728.00 MB total
+[2020.01.25-13.41.07:840][551]LogMemory: 
+[2020.01.25-13.41.07:840][551]Allocator Stats for binned2: (not implemented)
+[2020.01.25-13.41.08:463][551]LogAIModule: Creating AISystem for world MainLevel
+[2020.01.25-13.41.08:464][551]LogLoad: Game class is 'KGGameMode_C'
+[2020.01.25-13.41.08:479][551]LogWorld: Bringing World /Game/MainLevel.MainLevel up for play (max tick rate 0) at 2020.01.25-05.41.08
+[2020.01.25-13.41.08:480][551]LogWorld: Bringing up level for play took: 0.013944
+[2020.01.25-13.41.08:488][551]LogLoad: Took 0.695457 seconds to LoadMap(/Game/MainLevel)
+[2020.01.25-13.41.09:159][585]LogSlate: Request Window 'Survival (64-bit, PCD3D_SM5)' being destroyed
+[2020.01.25-13.41.09:200][585]LogSlate: Window 'Survival (64-bit, PCD3D_SM5)' being destroyed
+[2020.01.25-13.41.09:201][585]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.01.25-13.41.09:211][585]LogSlate: HittestGrid destroyed
+[2020.01.25-13.41.09:212][585]LogEngine: All Windows Closed
+[2020.01.25-13.41.09:212][585]LogWindows: FPlatformMisc::RequestExit(0)
+[2020.01.25-13.41.09:214][586]LogMoviePlayer: Shutting down movie player
+[2020.01.25-13.41.10:145][586]LogSlate: HittestGrid destroyed
+[2020.01.25-13.41.10:145][586]LogSlate: HittestGrid destroyed
+[2020.01.25-13.41.10:175][586]LogExit: Preparing to exit.
+[2020.01.25-13.41.10:245][586]LogExit: Game engine shut down
+[2020.01.25-13.41.10:289][586]LogObj: Freed 176b from 1 cluster array pools.
+[2020.01.25-13.41.10:289][586]LogExit: Object subsystem successfully closed.
+[2020.01.25-13.41.10:319][586]LogD3D11RHI: Shutdown
+[2020.01.25-13.41.10:320][586]LogD3D11RHI: CleanupD3DDevice
+[2020.01.25-13.41.10:436][586]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.01.25-13.41.10:439][586]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.01.25-13.41.10:440][586]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8F0B8CC8-4C60-F32B-5944-E1AB469DCFA0%7D&AppID=UEGame.Rocket.Release%7C27D6A06F4A29FA93494D62ACABB4BB50%7CUE4Game&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=ANON-%7B020E6B4A-42F4-32E0-BD80-5095D572D060%7D%7C%7C&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.01.25-13.41.10:442][586]LogModuleManager: Shutting down and abandoning module AutomationController (68)
+[2020.01.25-13.41.10:443][586]LogModuleManager: Shutting down and abandoning module AutomationWorker (67)
+[2020.01.25-13.41.10:443][586]LogModuleManager: Shutting down and abandoning module GameplayDebugger (66)
+[2020.01.25-13.41.10:443][586]LogModuleManager: Shutting down and abandoning module AIModule (65)
+[2020.01.25-13.41.10:443][586]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (64)
+[2020.01.25-13.41.10:443][586]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (63)
+[2020.01.25-13.41.10:443][586]LogModuleManager: Shutting down and abandoning module Media (62)
+[2020.01.25-13.41.10:443][586]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (61)
+[2020.01.25-13.41.10:443][586]LogModuleManager: Shutting down and abandoning module CharacterAI (60)
+[2020.01.25-13.41.10:443][586]LogModuleManager: Shutting down and abandoning module SessionServices (59)
+[2020.01.25-13.41.10:443][586]LogModuleManager: Shutting down and abandoning module GeometryCache (58)
+[2020.01.25-13.41.10:443][586]LogModuleManager: Shutting down and abandoning module Niagara (57)
+[2020.01.25-13.41.10:443][586]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (56)
+[2020.01.25-13.41.10:443][586]LogModuleManager: Shutting down and abandoning module AnalyticsET (55)
+[2020.01.25-13.41.10:443][586]LogModuleManager: Shutting down and abandoning module ProfilerService (54)
+[2020.01.25-13.41.10:654][586]LogModuleManager: Shutting down and abandoning module TaskGraph (53)
+[2020.01.25-13.41.10:658][586]LogModuleManager: Shutting down and abandoning module SlateRemote (52)
+[2020.01.25-13.41.10:658][586]LogModuleManager: Shutting down and abandoning module SteamVRController (51)
+[2020.01.25-13.41.10:658][586]LogModuleManager: Shutting down and abandoning module SteamVR (50)
+[2020.01.25-13.41.10:658][586]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (49)
+[2020.01.25-13.41.10:659][586]LogModuleManager: Shutting down and abandoning module OculusLibrary (48)
+[2020.01.25-13.41.10:659][586]LogModuleManager: Shutting down and abandoning module OculusInput (47)
+[2020.01.25-13.41.10:659][586]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (46)
+[2020.01.25-13.41.10:659][586]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (45)
+[2020.01.25-13.41.10:659][586]LogModuleManager: Shutting down and abandoning module CableComponent (44)
+[2020.01.25-13.41.10:659][586]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (43)
+[2020.01.25-13.41.10:659][586]LogModuleManager: Shutting down and abandoning module HTML5Networking (41)
+[2020.01.25-13.41.10:659][586]LogModuleManager: Shutting down and abandoning module UdpMessaging (40)
+[2020.01.25-13.41.10:660][586]LogModuleManager: Shutting down and abandoning module TcpMessaging (39)
+[2020.01.25-13.41.10:661][586]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (38)
+[2020.01.25-13.41.10:661][586]LogModuleManager: Shutting down and abandoning module Paper2D (37)
+[2020.01.25-13.41.10:661][586]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (36)
+[2020.01.25-13.41.10:661][586]LogModuleManager: Shutting down and abandoning module WmfMedia (35)
+[2020.01.25-13.41.10:663][586]LogModuleManager: Shutting down and abandoning module ImageWrapper (34)
+[2020.01.25-13.41.10:663][586]LogModuleManager: Shutting down and abandoning module MediaAssets (33)
+[2020.01.25-13.41.10:663][586]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (32)
+[2020.01.25-13.41.10:663][586]LogModuleManager: Shutting down and abandoning module UMG (31)
+[2020.01.25-13.41.10:663][586]LogModuleManager: Shutting down and abandoning module SlateReflector (30)
+[2020.01.25-13.41.10:666][586]LogModuleManager: Shutting down and abandoning module Slate (29)
+[2020.01.25-13.41.10:666][586]LogModuleManager: Shutting down and abandoning module Messaging (28)
+[2020.01.25-13.41.10:666][586]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (27)
+[2020.01.25-13.41.10:666][586]LogModuleManager: Shutting down and abandoning module XAudio2 (26)
+[2020.01.25-13.41.10:666][586]LogModuleManager: Shutting down and abandoning module Networking (24)
+[2020.01.25-13.41.10:666][586]LogModuleManager: Shutting down and abandoning module Core (23)
+[2020.01.25-13.41.10:666][586]LogModuleManager: Shutting down and abandoning module AssetRegistry (22)
+[2020.01.25-13.41.10:668][586]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2020.01.25-13.41.10:668][586]LogModuleManager: Shutting down and abandoning module OculusRift (20)
+[2020.01.25-13.41.10:669][586]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (19)
+[2020.01.25-13.41.10:669][586]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2020.01.25-13.41.10:669][586]LogOnline:Display: Unloading online subsystem: NULL
+[2020.01.25-13.41.10:670][586]LogModuleManager: Shutting down and abandoning module SSL (16)
+[2020.01.25-13.41.10:670][586]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2020.01.25-13.41.10:670][586]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2020.01.25-13.41.10:670][586]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2020.01.25-13.41.10:670][586]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2020.01.25-13.41.10:672][586]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2020.01.25-13.41.10:672][586]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2020.01.25-13.41.10:672][586]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2020.01.25-13.41.10:672][586]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2020.01.25-13.41.10:672][586]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2020.01.25-13.41.10:672][586]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2020.01.25-13.41.10:672][586]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2020.01.25-13.41.10:672][586]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2020.01.25-13.41.10:672][586]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2020.01.25-13.41.10:672][586]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2020.01.25-13.41.10:676][586]LogExit: Exiting.
+[2020.01.25-13.41.10:677][586]Log file closed, 01/25/20 05:41:10
