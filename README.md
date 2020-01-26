@@ -9,7 +9,7 @@ Click on it and then, on the right menu, press the plus button, where you will c
 
 Known bugs: 
  - After one attack, the enemy will run backwards to you;
- - Mage atack range doesn't work properly;
+ - Mage attack range doesn't work properly;
  - Sometimes, death camera will go in the center of the map;
  - Sometimes, after first wave, some enemies spawn only as a floating sword;
  
